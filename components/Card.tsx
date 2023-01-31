@@ -3,9 +3,9 @@ import React from "react"
 import { useSortable } from "@dnd-kit/sortable"
 import { CSS } from "@dnd-kit/utilities"
 
-type Props = {
-  id: string
-  image:string
+interface Props {
+  id: string;
+  image: string;
 }
 
 export default function Card({ id, image }: Props) {
